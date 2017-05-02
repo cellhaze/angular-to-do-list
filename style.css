@@ -1,0 +1,86 @@
+@font-face { font-family: Handwriting_Font_3; src: url('Handwriting_Font_3.ttf'); }
+@font-face { font-family: Handwriting_Font_3; font-weight: bold; src: url('Handwriting_Font_3.ttf');}
+
+* {
+    font-family: sans-serif;
+    
+}
+
+html {
+    background-color: #398181;
+}
+
+h2, li {
+    font-family: Handwriting_Font_3;
+}
+
+h2 {
+    font-size: 40pt;
+}
+
+#wrapper {
+    position: relative;
+    resize: both;
+    height: 30em;
+    width: 30em;
+    margin: 10em auto;
+    padding: 2em;
+    
+}
+
+.container {
+    width: 80%;
+/*    height: 20em;*/
+    padding: 20px;
+    position: absolute;
+    position: absolute;
+    background: radial-gradient(rgba(255, 0, 0, 0), rgba(0, 128, 0, 0), rgba(0, 0, 0, 0.13));
+    background-color: #fffdd1;
+    box-shadow: 0em 0em 2em rgba(56, 55, 74, 0.33);
+    overflow: 
+}
+
+.list-box {
+    margin: 0 auto;
+    text-align: center;
+}
+
+input {
+    border-radius: 0.3em;
+    height: 2em;
+    margin: 0 0 0.5em;
+}
+
+input:nth-child(3) {
+    height: 2.5em;
+    width: 50%;
+}
+
+ul {
+    border-bottom: inset 0.2em rgba(141, 89, 52, 0.42);
+}
+
+li {
+    list-style-type: none;
+    margin: 0 0 0 4em;
+    text-align: left;
+}
+
+button {
+    margin: 1em 0 0;
+    background-color: #0080ff;
+    color: #c5cafc;
+    font-weight: 700;
+    text-shadow: -1px -1px 1px #444;
+    border-radius: 0.5em;
+    height: 3em;
+    font-size: 13pt;
+    width: 15em;
+    background: radial-gradient(0deg, rgba(42, 96, 196, 0.88), #113064, rgba(42, 96, 196, 0.88));   
+}
+
+span:hover {
+    text-shadow: 0 0 1em red;
+    font-weight: bolder;
+    font-size: 20pt;
+}
